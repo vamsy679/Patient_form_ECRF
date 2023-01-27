@@ -1,0 +1,75 @@
+.input-container {
+	display: flex;
+	flex-direction: column;
+	background: #e8e9ff;
+	padding: 15px;
+	margin: 10px 0;
+	box-shadow: 1px 5px 15px -3px #c2c3cd;
+}
+
+.input-style {
+	height: 40px;
+	margin-bottom: 6px;
+}
+
+.details-container {
+	align-items: flex-start;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.question-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 13px;
+}
+.options-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+}
+.button-container {
+	display: flex;
+	justify-content: space-between;
+}
+.submit {
+	background-color: #32b532;
+	border-color: #228b22;
+}
+.submit:hover {
+	background-color: #228b22;
+	border-color: #228b22;
+}
+
+.remove {
+	background-color: #f81559;
+	border-color: #d70040;
+}
+.remove:hover {
+	background-color: #d70040;
+	border-color: #d70040;
+}
+.header-card {
+	font-size: 18px;
+	height: 45px;
+	font-weight: 600;
+	color: white;
+	background-color: rgb(133 141 255);
+	box-shadow: 1px 5px 15px -3px #c2c3cd;
+}
+
+
+/*------------- Submission page <h1> ---------*/
+.centered {
+	height: 40vh; /* Magic here */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
